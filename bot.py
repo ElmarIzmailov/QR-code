@@ -31,6 +31,6 @@ def get_path(message):
             bot.send_photo(message.chat.id, photo)
 
     else:
-        bot.send_message(message.chat.id, "sen hhttps:// kiritmadin")
+        bot.send_message(message.chat.id, "/start")
 
 bot.polling(none_stop=True)
